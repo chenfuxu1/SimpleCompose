@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CustomMutableState</string>
+    <string name="title_activity_remember">RememberActivity</string>
+    <string name="title_activity_list_state">ListStateActivity</string>
+    <string name="title_activity_re_compose_scope">ReComposeScopeActivity</string>
+    <string name="title_activity_derived_state">DerivedStateActivity</string>
+</resources>

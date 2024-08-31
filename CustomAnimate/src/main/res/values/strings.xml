@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">CustomAnimate</string>
+    <string name="title_activity_animatable">AnimatableActivity</string>
+    <string name="title_activity_animation_spec">AnimationSpecActivity</string>
+    <string name="title_activity_snap_spe">SnapSpeActivity</string>
+    <string name="title_activity_key_frame_spec">KeyFrameSpecActivity</string>
+    <string name="title_activity_spring_spec">SpringSpecActivity</string>
+    <string name="title_activity_repeatable_spec">RepeatableSpecActivity</string>
+    <string name="title_activity_animate_decay">AnimateDecayActivity</string>
+    <string name="title_activity_stop_animate">StopAnimateActivity</string>
+    <string name="title_activity_transition_change_state">TransitionChangeStateActivity</string>
+    <string name="title_activity_transition_animated_visibility">
+        TransitionAnimatedVisibilityActivity
+    </string>
+    <string name="title_activity_transition_cross_fade">TransitionCrossFadeActivity</string>
+    <string name="title_activity_transition_animated_content">TransitionAnimatedContentActivity
+    </string>
+</resources>

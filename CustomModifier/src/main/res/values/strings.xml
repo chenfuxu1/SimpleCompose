@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">SimpleCompose</string>
+    <string name="title_activity_modifier">ModifierActivity</string>
+    <string name="title_activity_combined_modifier">CombinedModifierActivity</string>
+    <string name="title_activity_composed_modifier">ComposedModifierActivity</string>
+    <string name="title_activity_layout_modifier">LayoutModifierActivity</string>
+    <string name="title_activity_draw_modifier">DrawModifierActivity</string>
+    <string name="title_activity_point_input_modifier">PointInputModifierActivity</string>
+    <string name="title_activity_parent_data_modifier">ParentDataModifierActivity</string>
+    <string name="title_activity_semantics_modifier">SemanticsModifierActivity</string>
+    <string name="title_activity_on_remeasured_modifier">OnRemeasuredModifierActivity</string>
+    <string name="title_activity_on_place_modifier">OnPlaceModifierActivity</string>
+    <string name="title_activity_lookahead_on_placed_modifier">LookaheadOnPlacedModifierActivity
+    </string>
+    <string name="title_activity_on_globally_positioned_modifier">
+        OnGloballyPositionedModifierActivity
+    </string>
+    <string name="title_activity_modifier_local">ModifierLocalActivity</string>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CustomSideSffect</string>
+    <string name="title_activity_disposable_effect">DisposableEffectActivity</string>
+    <string name="title_activity_launched_effect">LaunchedEffectActivity</string>
+    <string name="title_activity_remember_updated_state">RememberUpdatedStateActivity</string>
+    <string name="title_activity_remember_coroutine_scope">RememberCoroutineScopeActivity</string>
+    <string name="title_activity_produce_state">ProduceStateActivity</string>
+    <string name="title_activity_snapshot_flow">SnapshotFlowActivity</string>
+</resources>

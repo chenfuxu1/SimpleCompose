@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CustomView</string>
+    <string name="title_activity_custom_layout">CustomLayoutActivity</string>
+    <string name="title_activity_sub_compose_layout">SubComposeLayoutActivity</string>
+    <string name="title_activity_look">LookActivity</string>
+    <string name="title_activity_custom_touch">CustomTouchActivity</string>
+    <string name="title_activity_custom_nested_scroll">CustomNestedScrollActivity</string>
+    <string name="title_activity_custom_two_dimen_scroll">CustomTwoDimenScrollActivity</string>
+    <string name="title_activity_custom_multi_finger">CustomMultiFingerActivity</string>
+    <string name="title_activity_custom_touch_demo">CustomTouchDemoActivity</string>
+    <string name="title_activity_custom_compose_fix_view">CustomComposeFixViewActivity</string>
+    <string name="title_activity_custom_compose_theory">CustomComposeTheoryActivity</string>
+</resources>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SimpleCompose"
+        tools:targetApi="31">
+        <activity
+            android:name=".ModifierLocalActivity"
+            android:exported="true"
+            android:label="@string/title_activity_modifier_local"
+            android:theme="@style/Theme.SimpleCompose">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".OnGloballyPositionedModifierActivity"
+            android:exported="true"
+            android:label="@string/title_activity_on_globally_positioned_modifier"
+            android:theme="@style/Theme.SimpleCompose">
+            <!-- <intent-filter> -->
+            <!--     <action android:name="android.intent.action.MAIN" /> -->
+
+            <!--     <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".LookaheadOnPlacedModifierActivity"
+            android:exported="true"
+            android:label="@string/title_activity_lookahead_on_placed_modifier"
+            android:theme="@style/Theme.SimpleCompose">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".OnPlacedModifierActivity"
+            android:exported="true"
+            android:label="@string/title_activity_on_place_modifier"
+            android:theme="@style/Theme.SimpleCompose">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".OnRemeasuredModifierActivity"
+            android:exported="true"
+            android:label="@string/title_activity_on_remeasured_modifier"
+            android:theme="@style/Theme.SimpleCompose">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".SemanticsModifierActivity"
+            android:exported="true"
+            android:label="@string/title_activity_semantics_modifier"
+            android:theme="@style/Theme.SimpleCompose">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".ParentDataModifierActivity"
+            android:exported="true"
+            android:label="@string/title_activity_parent_data_modifier"
+            android:theme="@style/Theme.SimpleCompose">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".PointInputModifierActivity"
+            android:exported="true"
+            android:label="@string/title_activity_point_input_modifier"
+            android:theme="@style/Theme.SimpleCompose">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".DrawModifierActivity"
+            android:exported="true"
+            android:label="@string/title_activity_draw_modifier"
+            android:theme="@style/Theme.SimpleCompose">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".LayoutModifierActivity"
+            android:exported="true"
+            android:label="@string/title_activity_layout_modifier"
+            android:theme="@style/Theme.SimpleCompose">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".ComposedModifierActivity"
+            android:exported="true"
+            android:label="@string/title_activity_composed_modifier"
+            android:theme="@style/Theme.SimpleCompose">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".CombinedModifierActivity"
+            android:exported="true"
+            android:label="@string/title_activity_combined_modifier"
+            android:theme="@style/Theme.SimpleCompose">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".ModifierActivity"
+            android:exported="true"
+            android:label="@string/title_activity_modifier"
+            android:theme="@style/Theme.SimpleCompose">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.SimpleCompose">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+    </application>
+
+</manifest>

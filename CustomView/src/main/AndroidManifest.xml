@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SimpleCompose">
+        <activity
+            android:name=".CustomComposeTheoryActivity"
+            android:exported="true"
+            android:label="@string/title_activity_custom_compose_theory"
+            android:theme="@style/Theme.SimpleCompose">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CustomComposeFixViewActivity"
+            android:exported="true"
+            android:label="@string/title_activity_custom_compose_fix_view"
+            android:theme="@style/Theme.SimpleCompose">
+            <!-- <intent-filter> -->
+            <!--     <action android:name="android.intent.action.MAIN" /> -->
+
+            <!--     <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".CustomTouchDemoActivity"
+            android:exported="true"
+            android:label="@string/title_activity_custom_touch_demo"
+            android:theme="@style/Theme.SimpleCompose">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".CustomMultiFingerActivity"
+            android:exported="true"
+            android:label="@string/title_activity_custom_multi_finger"
+            android:theme="@style/Theme.SimpleCompose">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".CustomTwoDimenScrollActivity"
+            android:exported="true"
+            android:label="@string/title_activity_custom_two_dimen_scroll"
+            android:theme="@style/Theme.SimpleCompose">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".CustomNestedScrollActivity"
+            android:exported="true"
+            android:label="@string/title_activity_custom_nested_scroll"
+            android:theme="@style/Theme.SimpleCompose">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".CustomTouchActivity"
+            android:exported="true"
+            android:label="@string/title_activity_custom_touch"
+            android:theme="@style/Theme.SimpleCompose">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".LookAheadActivity"
+            android:exported="true"
+            android:label="@string/title_activity_look"
+            android:theme="@style/Theme.SimpleCompose">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".SubComposeLayoutActivity"
+            android:exported="true"
+            android:label="@string/title_activity_sub_compose_layout"
+            android:theme="@style/Theme.SimpleCompose">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".CustomLayoutActivity"
+            android:exported="true"
+            android:label="@string/title_activity_custom_layout"
+            android:theme="@style/Theme.SimpleCompose">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".CustomViewActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.SimpleCompose">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+    </application>
+
+</manifest>
